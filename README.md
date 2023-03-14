@@ -120,8 +120,6 @@ fi
 sasas
 			
    8. Recibir la ruta de un fichero e indicar si existe
-
-   
    9. Recibir la ruta de un fichero e indicar si es un directorio o un fichero.
    10. Recibir la ruta de un fichero e indicar los permisos que tiene (escritura, lectura, ejecución)
    11. Imprimir por pantalla 50 veces la palabra hola.
