@@ -115,11 +115,19 @@ if [ $# -eq "3" ]; then
 else
 echo "Número de parámetros introducidos incorrecto"
 fi
-```
-* asas kaskcaasn
-sasas
-			
+```			
    8. Recibir la ruta de un fichero e indicar si existe
+   
+```sh
+#!/bin/bash
+
+if [[ -f $1 ]]
+then
+    echo "El fichero existe"
+else
+    echo "El fichero no existe"
+fi
+```
    9. Recibir la ruta de un fichero e indicar si es un directorio o un fichero.
    10. Recibir la ruta de un fichero e indicar los permisos que tiene (escritura, lectura, ejecución)
    11. Imprimir por pantalla 50 veces la palabra hola.
